@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Wilkerson Collective University — a private AI-powered learning environment.">
+  <title>Wilkerson Collective University</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cinematic.css">
+  <link rel="stylesheet" href="experience.css">
+  <style>.cinema-hero{background-image:url('assets/photos/fountain-quad.jpg')!important}</style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <button class="brand" data-view="home" aria-label="Wilkerson Collective University home"><img src="assets/wilkerson-crest.svg" alt=""><span><b>WILKERSON</b><small>COLLECTIVE UNIVERSITY</small></span></button>
+      <nav id="nav">
+        <button class="nav-item active" data-view="home"><span>⌂</span> Home</button>
+        <button class="nav-item" data-view="campus"><span>◇</span> Campus</button>
+        <button class="nav-item" data-view="course"><span>▤</span> My Course</button>
+        <button class="nav-item" data-view="library"><span>▥</span> Library</button>
+        <button class="nav-item" data-view="arts"><span>♫</span> Performing Arts</button>
+        <button class="nav-item" data-view="residence"><span>♜</span> My Residence</button>
+        <button class="nav-item" data-view="schedule"><span>◷</span> Study Plan</button>
+        <button class="nav-item" data-view="admin"><span>⚙</span> Admin & Status</button>
+        <button class="nav-item" data-view="toolstack"><span>✦</span> Founder Tool Lab</button>
+      </nav>
+      <div class="term-card"><small>ACADEMIC TERM</small><strong>Foundations · 2026</strong><div class="mini-progress"><i style="width:34%"></i></div><span>34% complete</span></div>
+      <button class="profile"><span class="avatar">WW</span><span><b>Willie Wilkerson</b><small>Founder · Learner</small></span></button>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="topbar"><button id="menuBtn" aria-label="Open menu">☰</button><div class="mode-switch" role="group" aria-label="Experience mode"><button class="active" data-view="home">Academic Portal</button><button data-view="campus">Campus Mode</button></div><div class="top-actions"><button id="soundBtn" title="Ambient sound" aria-pressed="false">♪</button><button id="contrastBtn" title="High contrast" aria-pressed="false">◐</button><button id="guideBtn" class="guide-pill"><span>✦</span> Ask WISDOM</button></div></header>
+      <section id="view" aria-live="polite"></section>
+    </main>
+  </div>
+  <dialog id="guideDialog"><form method="dialog" class="dialog-head"><div><span class="guide-orb">✦</span><b>WISDOM Academic Guide</b><small>Original AI learning assistant · Demonstration mode</small></div><button aria-label="Close">×</button></form><div id="chatLog" class="chat-log"><p class="assistant">Welcome, Willie. I can help explain the active lesson, shape your study plan, or suggest what to learn next. Live AI requires server-side provider configuration.</p></div><form id="chatForm" class="chat-form"><input id="chatInput" autocomplete="off" placeholder="Ask about your studies…" aria-label="Message WISDOM"><button>Send</button></form></dialog>
+  <div id="toast" role="status"></div>
+  <script src="app-v2.js"></script>
+  <script src="experience.js"></script>
+  <script src="toolstack.js"></script>
+</body>
+</html>

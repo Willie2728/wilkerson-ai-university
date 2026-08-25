@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 780" role="img" aria-labelledby="title desc">
+  <title id="title">Wilkerson Collective University Four-Part Crest</title>
+  <desc id="desc">An original four-part indigo, sapphire, silver, and gold crest with a luxury WC monogram, globe, open book, torch and constellation, established 1971.</desc>
+  <defs>
+    <linearGradient id="indigo" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121b58"/><stop offset="1" stop-color="#34266f"/></linearGradient>
+    <linearGradient id="sapphire" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25498e"/><stop offset="1" stop-color="#15265f"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#d6dcea"/><stop offset="1" stop-color="#8795b2"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d990"/><stop offset=".48" stop-color="#c99b42"/><stop offset="1" stop-color="#f1cf78"/></linearGradient>
+    <clipPath id="shieldClip"><path d="M95 105Q320 18 545 105v285q0 210-225 317Q95 600 95 390Z"/></clipPath>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#05091f" flood-opacity=".42"/></filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M95 105Q320 18 545 105v285q0 210-225 317Q95 600 95 390Z" fill="url(#indigo)" stroke="url(#gold)" stroke-width="19"/>
+    <g clip-path="url(#shieldClip)">
+      <path d="M320 70H575V390H320Z" fill="url(#sapphire)"/>
+      <path d="M65 390H320V735H65Z" fill="url(#sapphire)"/>
+      <path d="M320 390H575V735H320Z" fill="#211c59"/>
+      <path d="M320 68V700M88 390H552" stroke="url(#gold)" stroke-width="12"/>
+      <path d="M320 75V700M92 390H548" stroke="#f8fbff" stroke-opacity=".72" stroke-width="3"/>
+    </g>
+    <path d="M119 124Q320 51 521 124v256q0 184-201 286Q119 564 119 380Z" fill="none" stroke="url(#silver)" stroke-width="5"/>
+  </g>
+
+  <!-- Quadrant I: luxury WC monogram -->
+  <g fill="url(#gold)" text-anchor="middle">
+    <text x="215" y="276" font-family="'Edwardian Script ITC','Bickham Script Pro','Segoe Script',cursive" font-size="126" font-style="italic">W</text>
+    <text x="246" y="300" font-family="'Edwardian Script ITC','Bickham Script Pro','Segoe Script',cursive" font-size="111" font-style="italic">C</text>
+    <path d="M158 318q60 20 122-3" fill="none" stroke="#f5df9f" stroke-width="3"/>
+  </g>
+
+  <!-- Quadrant II: globe, knowledge of the world -->
+  <g transform="translate(426 246)" fill="none" stroke="url(#silver)" stroke-width="6">
+    <circle r="72"/><ellipse rx="34" ry="72"/><path d="M-67-25h134M-71 15h142M-55 48h110"/>
+    <path d="M-17-57l18 9 15-10 25 13 11 26-18 4-12 20-23-7-17-22-22-8 8-18Z" fill="#d7b35f" stroke="#d7b35f" stroke-width="3" opacity=".95"/>
+  </g>
+  <path d="M365 338q61 22 123 0" fill="none" stroke="#d7b35f" stroke-width="4"/>
+
+  <!-- Quadrant III: open book, scholarship -->
+  <g transform="translate(210 518)">
+    <path d="M-92-52q46-16 92 17 46-33 92-17v112Q46 47 0 82-46 47-92 60Z" fill="#f8fbff" stroke="url(#gold)" stroke-width="7"/>
+    <path d="M0-34V81M-75-27q34-6 62 12M75-27q-34-6-62 12M-70 1q30-4 57 13M70 1q-30-4-57 13" fill="none" stroke="#8d9ab6" stroke-width="4"/>
+    <path d="M-111 74q55 20 111 23 56-3 111-23" fill="none" stroke="#d7b35f" stroke-width="6"/>
+  </g>
+
+  <!-- Quadrant IV: torch, wisdom and innovation -->
+  <g transform="translate(429 519)">
+    <path d="M-16-44h32v104h-32z" fill="url(#silver)"/><path d="M-52 53h104v18H-52z" fill="url(#gold)"/>
+    <path d="M0-66c-32-6-47-28-32-57 5 21 18 24 28 10-5-23 8-42 24-58-1 28 24 42 25 68 1 25-18 39-45 37Z" fill="url(#gold)"/>
+    <g fill="#f8fbff" stroke="#d7b35f" stroke-width="3"><circle cx="-69" cy="-115" r="7"/><circle cx="-86" cy="-75" r="5"/><circle cx="71" cy="-125" r="7"/><circle cx="91" cy="-87" r="5"/><path d="m-69-115-17 40m157-50 20 38" fill="none"/></g>
+  </g>
+
+  <!-- Oak branches and formal founding ribbon -->
+  <g fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"><path d="M106 464Q31 556 122 674"/><path d="M534 464q75 92-16 210"/></g>
+  <g fill="url(#silver)"><ellipse cx="76" cy="508" rx="13" ry="28" transform="rotate(-34 76 508)"/><ellipse cx="62" cy="558" rx="13" ry="28" transform="rotate(-10 62 558)"/><ellipse cx="80" cy="612" rx="13" ry="28" transform="rotate(18 80 612)"/><ellipse cx="564" cy="508" rx="13" ry="28" transform="rotate(34 564 508)"/><ellipse cx="578" cy="558" rx="13" ry="28" transform="rotate(10 578 558)"/><ellipse cx="560" cy="612" rx="13" ry="28" transform="rotate(-18 560 612)"/></g>
+  <path d="M92 652q228 64 456 0l-18 76q-210 56-420 0Z" fill="url(#gold)" stroke="#f8fbff" stroke-width="5"/>
+  <text x="320" y="696" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="25" fill="#172052" letter-spacing="5">ESTABLISHED 1971</text>
+  <text x="320" y="758" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="700" fill="#26316e" letter-spacing="4">KNOWLEDGE · WISDOM · LEGACY</text>
+</svg>
